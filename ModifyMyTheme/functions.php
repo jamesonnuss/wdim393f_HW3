@@ -7,4 +7,4 @@ function awesometitle($title){
 
 }
 
-add_filter('wp_title', 'awesometitle', 20)
+add_filter('wp_title', 'awesometitle', 20);
