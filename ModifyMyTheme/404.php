@@ -14,13 +14,11 @@ get_header(); ?>
 
 			<article id="post-0" class="post error404 no-results not-found">
 				<header class="entry-header">
-					<h1 class="entry-title"><?php _e( 'This is somewhat embarrassing, isn&rsquo;t it?', 'twentytwelve' ); ?></h1>
+					<h1 class="entry-title"><?php _e( 'ERROR 404 PAGE NOT FOUND'); ?></h1>
 				</header>
 
-				<div class="entry-content">
-					<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'twentytwelve' ); ?></p>
-					<?php get_search_form(); ?>
-				</div><!-- .entry-content -->
+				<img src="<?php echo get_stylesheet_directory_uri() ?>/images/ron-swanson-corn-mustache.GIF" title="Error 404 Page Not Found"/>
+					<h2 class="entry-title"><?php _e('Feel free to stay here and eat some corn'); ?></h2>
 			</article><!-- #post-0 -->
 
 		</div><!-- #content -->
